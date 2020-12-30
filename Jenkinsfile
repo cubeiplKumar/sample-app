@@ -1,5 +1,6 @@
 pipeline {
     agent any
+    tools{
         //maven path in jenkins 
         maven 'maven3'
     }
